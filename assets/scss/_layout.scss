@@ -1,0 +1,50 @@
+html{
+    font-size: 16px;
+    body{
+      header{
+        height: 200px;
+        position: relative;
+        display: flex;
+            .banner{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            
+        }
+        }
+        main{ 
+        
+        .bio{
+            display: flex;
+            margin-left: 1em;
+            margin-top: 1em;
+            .text{
+                margin-left: 12px;
+                margin-right: 2em;
+            }
+            .picture{ 
+                margin-top: 40px;
+                display:flex;
+                flex-wrap: wrap;
+                text-align: center;
+                margin-right: 1em;
+            }
+        
+        }
+        .skills{display: flex;
+                }
+            
+                .image{
+                    display: flex;
+                    flex-direction: row-reverse;
+                }
+            
+        }
+    footer{
+        display: flex;
+        
+    }
+    
+
+    }
+}
